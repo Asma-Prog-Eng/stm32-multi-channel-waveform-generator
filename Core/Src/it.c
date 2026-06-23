@@ -38,7 +38,7 @@
   */
 #include "stm32f1xx_hal.h"
 
-extern TIM_HandleTypeDef htimer2, htimer3;
+extern TIM_HandleTypeDef htimer2;
 
 // override the default handler, = the infinite loop
 // When the SysTick interrupt is triggered, control is transferred to this handler,
@@ -60,10 +60,3 @@ void TIM2_IRQHandler(void) {
 
 }
 
-// 2. Run the TIM3 HAL handler
-
-void TIM3_IRQHandler(void) {
-
-
-	HAL_TIM_IRQHandler(&htimer3);
-}

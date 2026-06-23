@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>stm32-timer-input-capture-measurement</name>
+	<name>stm32-multi-channel-waveform-generator</name>
 	<comment></comment>
 	<projects>
 	</projects>
