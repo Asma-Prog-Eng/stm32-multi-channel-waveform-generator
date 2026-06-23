@@ -144,10 +144,7 @@ void SYSCLK_Config(void) {
 
 
 		clk_init.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK ;
-
-		osc_init.PLL.PLLMUL =  RCC_PLL_MUL9;
-
-
+	
 		osc_init.PLL.PLLMUL =  RCC_PLL_MUL6;
 
 		clk_init.AHBCLKDivider = RCC_SYSCLK_DIV1 ;
