@@ -13,13 +13,13 @@
   * ============================================================================
   * CLOCK & TIMEBASE CONFIGURATION
   * ============================================================================
-  * - System Clock (SYSCLK)      = 52 MHz (Via PLL, sourcing HSI divided by 2)
-  * - AHB Bus Prescaler          = 1 (52 MHz)
-  * - APB1 Peripheral Prescaler  = 4 (13 MHz Clock / 26 MHz Timer Base Clock)
+  * - System Clock (SYSCLK)      = 48 MHz (Via PLL, sourcing HSE)
+  * - AHB Bus Prescaler          = 1 (48 MHz)
+  * - APB1 Peripheral Prescaler  = 4 (12 MHz Clock / 24 MHz Timer Base Clock)
   *
   * *Note:* Due to hardware design rules on the APB1 bus, when the prescaler is not 1,
   * a hardware x2 multiplier is applied to the timer clocks. Consequently, TIM2
-  * runs on a dedicated **26 MHz internal clock timebase**.
+  * runs on a dedicated **24 MHz internal clock timebase**.
   *
   * ============================================================================
   * HARDWARE PIN SCHEDULING & AFIO REMAPPING (PARTIAL REMAP 2)
